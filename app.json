@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "QC_News",
+    "slug": "QC_News",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hameedijadunola.QC_News",
+      "enableDangerousExperimentalLeanBuilds": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1bb66802-6e94-4371-89d0-ca874be6ac2e"
+      }
+    }
+  }
+}
